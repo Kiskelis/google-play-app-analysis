@@ -110,3 +110,8 @@ Data/mobilerec_metadata.csv
 # OS / Editor / Notebook garbage
 .DS_Store
 .ipynb_checkpoints/
+
+# Track Data folders but ignore CSV files
+!Data/
+!Data/**/
+Data/**/*.csv
