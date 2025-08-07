@@ -115,3 +115,5 @@ Data/mobilerec_metadata.csv
 !Data/
 !Data/**/
 Data/**/*.csv
+
+Models/lid.176.bin
