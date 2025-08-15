@@ -106,6 +106,7 @@ __marimo__/
 # Ignore raw data
 Data/mobilerec_interactions.csv
 Data/mobilerec_metadata.csv
+PowerBI/mobilerec_dashboard.pbix
 
 # OS / Editor / Notebook garbage
 .DS_Store
