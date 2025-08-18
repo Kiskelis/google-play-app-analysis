@@ -40,7 +40,7 @@ The goal was to create a **reproducible analytics pipeline** - from raw CSVs to 
 ## 🧩 Project Workflow
 
 <details>
-<summary><strong>🔹 Part 1 — Data Cleaning & EDA</strong></summary>
+<summary><strong>🔹 Part 1 — Data Cleaning & EDA (Click to Expand)</strong></summary>
 
 ([Notebooks/google_play_eda.ipynb](Notebooks/google_play_eda.ipynb))
 
@@ -64,7 +64,7 @@ The goal was to create a **reproducible analytics pipeline** - from raw CSVs to 
 ---
 
 <details>
-<summary><strong>🔹 Part 2 — Database & Star Schema</strong></summary>
+<summary><strong>🔹 Part 2 — Database & Star Schema (Click to Expand)</strong></summary>
 
 ([Notebooks/star_schema_creation.ipynb](Notebooks/star_schema_creation.ipynb), [sql/schema.sql](sql/schema.sql))
 
@@ -91,7 +91,7 @@ The goal was to create a **reproducible analytics pipeline** - from raw CSVs to 
 ---
 
 <details>
-<summary><strong>🔹 Part 3 — Power BI Dashboard</strong></summary>
+<summary><strong>🔹 Part 3 — Power BI Dashboard (Click to Expand)</strong></summary>
 
 ### Features
 - **KPI cards**: Avg Rating, %1★, %5★, Rating Std Dev, Paid vs Free uplift, Review Count, YoY growth.
