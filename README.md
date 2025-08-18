@@ -17,6 +17,7 @@ Once cleaned and structured, the data was migrated into a **PostgreSQL database*
 - Designed **dimension tables** (apps, categories, users, etc.) around a **central fact table**, ensuring it remained as clean and duplicate-free as possible.  
 
 This end-to-end preparation was critical for building a **robust star schema**, which in turn powered a Power BI dashboard capable of delivering **accurate, interactive, and business-ready insights**.
+
 ---
 
 ### 📸 Preview
