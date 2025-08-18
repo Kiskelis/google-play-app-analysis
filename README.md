@@ -6,6 +6,17 @@ The datasets used in this project were downloaded from [Hugging Face – recmeap
 This project analyzes **Google Play Store app data** (~19.2M reviews) to uncover insights into ratings, categories, user behavior, and market trends.  
 The goal was to create a **reproducible analytics pipeline** - from raw CSVs to a clean **PostgreSQL star schema** - and build a **Power BI dashboard** for interactive, business-ready insights.
 
+Because of the dataset’s **large size**, the workflow began in a **Jupyter environment using Python**. This allowed me to:
+- Explore and profile the data.
+- Handle **NaN values** and remove **duplicates**.
+- Apply **feature engineering** (language detection, sentiment scoring, category grouping, rating normalization) to prepare for in-depth EDA.
+
+Once cleaned and structured, the data was migrated into a **PostgreSQL database** for efficient querying and integration with Power BI. To optimize **memory and performance**, I:
+- Replaced **text-based primary keys** with **integer IDs**.
+- Created **primary and foreign keys** to enforce relationships.
+- Designed **dimension tables** (apps, categories, users, etc.) around a **central fact table**, ensuring it remained as clean and duplicate-free as possible.  
+
+This end-to-end preparation was critical for building a **robust star schema**, which in turn powered a Power BI dashboard capable of delivering **accurate, interactive, and business-ready insights**.
 ---
 
 ### 📸 Preview
