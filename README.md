@@ -26,7 +26,8 @@ This end-to-end preparation was critical for building a **robust star schema**, 
 ![Star Schema](sql/Schema.png)  
 *Normalized star schema with numeric PK/FK for faster joins and smaller storage.*
 
-![Power BI Dashboard](PowerBI/screenshot_for_github.png)  
+<img src="PowerBI/mobilerecvideo_gif.gif" alt="Power BI Dashboard" width="1000">
+
 *Interactive Power BI report with KPI cards, rating mix, Paid vs Free comparison, and trends.*
 
 ---
